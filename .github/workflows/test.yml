@@ -3,7 +3,7 @@ name: Run test in docker compose
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   test:
