@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-RUN apt-get update && apt-get install curl
+RUN apt-get update && apt-get install -y curl
 
 RUN curl -fsSL https://bun.sh/install | bash && \
 	    export BUN_INSTALL="$HOME/.bun" && \
