@@ -1,3 +1,4 @@
 services:
   test:
     build: .
+    command: bun test ./server.tsx
