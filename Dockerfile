@@ -2,4 +2,4 @@ FROM oven/bun:latest
 
 COPY . .
 
-CMD bun run ./index.tsx
+CMD bun run ./server.tsx
