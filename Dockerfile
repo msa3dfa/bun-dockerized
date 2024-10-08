@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM apline/curl:latest
 
 RUN curl -fsSL https://bun.sh/install | bash && \
 	    export BUN_INSTALL="$HOME/.bun" && \
